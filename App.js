@@ -66,7 +66,12 @@ const resultIcons = {
 
 const audioTests = [
   {
-    title: 'Meditation',
+    title: 'Play local',
+    isRequire: true,
+    url: require('./advertising.mp3'),
+  },
+  {
+    title: 'Stream Meditation',
     url: 'https://s3.amazonaws.com/pinprick/assets/music/1music.mp3',
   },
 ];
