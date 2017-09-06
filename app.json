@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "sample-project",
+    "description": "An empty new project",
+    "slug": "sample-project",
+    "privacy": "public",
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.sampleapp",
+      "supportsTablet": true,
+      "publishBundlePath": "ios/sample-project/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/sample-project/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.sampleapp"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expcaa01b2361ee4bd39d2139d200597f40",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v1.19.1-2-sdk20.0.0-1d5bb7d9-2160-4308-9cd1-ee44a73aa597.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v1.19.1-sdk20.0.0-5b613054-1239-439f-9c3a-0aad67cbe39a.tar.gz"
+    }
+  }
+}
